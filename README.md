@@ -16,6 +16,8 @@ This project uses the Arduino Uno to light up and cycle between three seperate L
 
 [`code`](code/rgb_led.ino) folder.
 
+[Click here to view the simulation in Tinkercad](https://www.tinkercad.com/things/your-link-here)
+
 What I learned
 - I learned how to properly connect and wire multiple LEDs with their resistors.
 - I Learned how to properly connect the Arduino Uno to the Breadboard using the 5V and GND pins.
