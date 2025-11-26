@@ -12,7 +12,7 @@ This project uses the Arduino Uno to light up and cycle between three seperate L
 - 3 × 220 Ω resistors  
 - Jumper wires
 
-Wiring Diagram is located in the [`assets`](assets/) folder.
+![Wiring diagram](assets/wiring-diagram.png)
 
 Source code is located in the [`code`](code/) folder.
 
