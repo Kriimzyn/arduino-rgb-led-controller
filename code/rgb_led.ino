@@ -1,34 +1,34 @@
-// C++ code
-//
-int redLED = 0;
+// Arduino RGB LED Controller
+// Cycles three LEDs (Red, Green, Blue) using digital output pins
 
-int greenLED = 0;
+// Pin definitions
+int redLED = 13;
+int greenLED = 12;
+int blueLED = 11;
 
-int blueLED = 0;
-
-void setup()
-{
-  pinMode(13, OUTPUT);
-  pinMode(12, OUTPUT);
-  pinMode(11, OUTPUT);
-
-  redLED = 13;
-  greenLED = 12;
-  blueLED = 11;
+void setup() {
+    // Set LED pins as outputs
+    pinMode(redLED, OUTPUT);
+    pinMode(greenLED, OUTPUT);
+    pinMode(blueLED, OUTPUT);
 }
 
-void loop()
-{
-  digitalWrite(13, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(13, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(12, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(11, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(11, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(12, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
+void loop() {
+    // --- RED LED ---
+    digitalWrite(redLED, HIGH);
+    delay(1000);
+    digitalWrite(redLED, LOW);
+    delay(1000);
+
+    // --- GREEN LED ---
+    digitalWrite(greenLED, HIGH);
+    delay(1000);
+    digitalWrite(greenLED, LOW);
+    delay(1000);
+
+    // --- BLUE LED ---
+    digitalWrite(blueLED, HIGH);
+    delay(1000);
+    digitalWrite(blueLED, LOW);
+    delay(1000);
 }
