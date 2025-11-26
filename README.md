@@ -14,7 +14,7 @@ This project uses the Arduino Uno to light up and cycle between three seperate L
 
 ![Wiring diagram](assets/wiring-diagram.png)
 
-Source code is located in the [`code`](code/) folder.
+[`code`](code/rgb_led.ino) folder.
 
 What I learned
 - I learned how to properly connect and wire multiple LEDs with their resistors.
